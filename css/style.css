@@ -1,11 +1,22 @@
+body {
+    background: #000;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 span {
-    display: block;
+    color: #fff;
     font-family: monospace;
     white-space: nowrap;
     border-right: 4px solid;
     width: 12ch;
     animation: typing 2s steps(12), blink .5s infinite step-end alternate;
     overflow: hidden;
+    font-size: 3em;
 }
 
 @keyframes typing {
